@@ -8,17 +8,24 @@ import EditPost from './pages/EditPost';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Nav from './components/Nav';
+import AuthComponent from './components/AuthComponent';
+import ToDoApp from './components/ToDoApp';
 
 function App() {
 	return (
 		<>
 			<div className="sticky top-2 mb-4 z-50">
 				<div className="">
-					<Navbar />
+					{/* <Navbar /> */}
+					<h1>React Template</h1>
 				</div>
 				{/* <Nav /> */}
 			</div>
-			<Routes>
+			<div>
+				{/* <AuthComponent /> */}
+				{/* <ToDoApp /> */}
+			</div>
+			{/* <Routes>
 				<Route
 					path="/"
 					element={<AllPosts />}
@@ -44,7 +51,7 @@ function App() {
 					path="/signup"
 					element={<Signup />}
 				/>
-			</Routes>
+			</Routes> */}
 		</>
 	);
 }
